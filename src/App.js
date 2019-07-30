@@ -4,9 +4,9 @@ import AddAnimals from './components/AddAnimals';
 import dogNoise from './animalNoises/dog.mp3';
 import catNoise from './animalNoises/cat.mp3';
 import cowNoise from './animalNoises/cow.mp3';
-import chickenNoise from './animalNoises/chicken.mp3';
+import chickenNoise from './animalNoises/chicken.wav';
 import sheepNoise from './animalNoises/sheep.mp3';
-import horseNoise from './animalNoises/horse.mp3';
+import horseNoise from './animalNoises/horse.wav';
 import duckNoise from './animalNoises/duck.mp3';
 
 class App extends React.Component {
