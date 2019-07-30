@@ -1,6 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Mini-App Animal-Noises
 
-## Available Scripts
+This mini app was created whilst I was studing at North Coders. This was a little extra app built in my free time to experiemnt with React.js. I added some styling with css grids to make it responsive for all devices but it's a very simple design.
+
+A live version of this mini-app can be found here - https://animal-noises.herokuapp.com/
+
+## Hosted with Heroku
+
+This can be easily hosted on Heroku using the following commands:
+
+Create 
+```
+heroku create [insert name]
+```
+You should see two links after running this command. Copy the second one.
+```
+git remote add heroku PASTE THE LINK YOU JUST COPIED
+```
+Push to Heroku
+```
+git push heroku master
+```
+
+Once you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you’re able to navigate to your app by running:
+```
+heroku open
+```
+
+## To edit the App - Available Scripts
 
 In the project directory, you can run:
 
@@ -66,3 +92,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+All images and sounds used are with a free licence
