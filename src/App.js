@@ -35,7 +35,7 @@ class App extends React.Component {
     console.log(soundurl)
     const sound = new Audio(soundurl);
     sound.play();
-    setTimeout(() => { sound.pause() }, 2000);
+    setTimeout(() => { sound.pause() }, 3000);
   }
 
 }
