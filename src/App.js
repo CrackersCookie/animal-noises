@@ -19,8 +19,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Animal Noises</h1>
-        <section className="Animals">
+        <header className="header">
+          <h1>Animal Noises</h1>
+        </header>
+        <section className="animals">
           <AddAnimals
             animals={this.state.animals}
             handleSound={this.handleSound} />
