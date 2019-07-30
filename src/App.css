@@ -5,16 +5,27 @@
 }
 
 img {
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 6em;
   object-fit: contain;
 }
 
 .header {
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background: url('./background.png') repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px
 }
 
 .animals {
